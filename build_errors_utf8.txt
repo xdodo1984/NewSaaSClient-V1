@@ -1,0 +1,71 @@
+﻿
+> full-stack-first-client@0.1.0 build
+> next build --webpack
+
+node.exe : ΓÜá Attempted 
+to load @next/swc-win32-x
+64-msvc, but an error 
+occurred: An Application 
+Control policy has 
+blocked this file.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecified:   
+  (ΓÜá Attempted t...c   
+ ked this file.:Strin    
+g) [], RemoteExcepti    
+on
+    + FullyQualifiedErro 
+   rId : NativeCommandE  
+  rror
+ 
+\\?\C:\Users\DNS\Desktop\
+full-stack-first-client\n
+ode_modules\@next\swc-win
+32-x64-msvc\next-swc.win3
+2-x64-msvc.node
+  Skipping creating a lockfile at C:\Users\DNS\Desktop\full-stack-first-client\.next\lock because we're using WASM bindings
+Γû▓ Next.js 16.2.1 (webpack)
+
+  Creating an optimized production build ...
+ΓÜá Attempted to load @ne
+xt/swc-win32-x64-msvc, 
+but an error occurred: 
+An Application Control 
+policy has blocked this 
+file.
+\\?\C:\Users\DNS\Desktop\
+full-stack-first-client\n
+ode_modules\@next\swc-win
+32-x64-msvc\next-swc.win3
+2-x64-msvc.node
+  Disabled SWC as replacement for Babel because of custom Babel configuration ".babelrc" https://nextjs.org/docs/messages/swc-disabled
+  `compiler` options in `next.config.js` will be ignored while using Babel https://nextjs.org/docs/messages/ignored-compiler-options
+  Using external babel configuration from C:\Users\DNS\Desktop\full-stack-first-client\.babelrc
+ΓÜá It looks like there 
+is a custom Babel 
+configuration that can 
+be removed.
+Failed to compile.
+
+./src/app/layout.tsx:2:1
+Syntax error: 
+"next/font" requires SWC 
+although Babel is being 
+used due to a custom 
+babel config being 
+present.
+Read more: https://nextjs
+.org/docs/messages/babel-
+font-loader-conflict
+
+
+> Build failed because 
+of webpack errors
