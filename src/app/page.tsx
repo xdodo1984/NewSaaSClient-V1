@@ -104,7 +104,7 @@ export default function LandingPage() {
           <Zap className="h-3.5 w-3.5" /> Now with AI-assisted writing
         </div>
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 max-w-3xl mx-auto leading-tight">
-          Content writing,{" "}
+          Dakshi nadi khfif Driff,{" "}
           <span className="text-brand-primary">simplified.</span>
         </h1>
         <p className="text-lg text-gray-500 mt-6 max-w-2xl mx-auto">
